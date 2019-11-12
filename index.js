@@ -42,5 +42,7 @@ class Delivery {
     this.mealId = meal;
     this.neighborhoodId = neighborhood;
     this.customerId = customer;
+    
+    store.deliveries.push(this);
   }
 }
