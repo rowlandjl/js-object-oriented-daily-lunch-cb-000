@@ -13,3 +13,11 @@ class Neighborhood {
     this.name = name; 
   }
 }
+
+class Customer {
+  
+}
+
+class Meal {
+  
+}
