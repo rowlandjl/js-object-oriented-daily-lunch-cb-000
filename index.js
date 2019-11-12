@@ -22,6 +22,11 @@ class Neighborhood {
   customers() {
     return store.customers.filter(customer => customer.neighborhoodId === this.id);
   }
+  
+  meals() {
+    const allMeals = this.customers().map(customer => customer.meals());
+    const merged = [].concat.apply([], allMeals);
+  }
 }
 
 class Customer {
