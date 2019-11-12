@@ -17,7 +17,9 @@ class Neighborhood {
 }
 
 class Customer {
-  
+  constructor(name, neighborhood) {
+    
+  }
 }
 
 class Meal {
