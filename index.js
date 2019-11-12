@@ -63,6 +63,6 @@ class Delivery {
   }
   
   meal() {
-    
+    return store.meals.find(meal => meal.id === this.mealId);
   }
 }
