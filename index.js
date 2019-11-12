@@ -21,3 +21,7 @@ class Customer {
 class Meal {
   
 }
+
+class Delivery {
+  
+}
