@@ -27,7 +27,13 @@ class Customer {
 }
 
 class Meal {
-  
+  constructor(title, price) {
+    this.id = ++mealId;
+    this.title = title;
+    this.price = price;
+    
+    store.meals.push(this);
+  }
 }
 
 class Delivery {
